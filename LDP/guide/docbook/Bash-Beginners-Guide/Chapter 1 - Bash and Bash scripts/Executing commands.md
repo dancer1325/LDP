@@ -1,0 +1,75 @@
+# TODO:
+
+# built-in commands
+- — contained within — shell
+- `builtInCommandName …`
+    - shell executes the command directly
+      - **Note:** 👁️NONE new process is created 👁️
+- uses
+    - implement new functionality
+- types supported by **bash**
+    - **sh** built-in
+        - `:`
+        - `.`
+        - `break`
+        - `cd`
+        - `continue`
+        - `eval`
+        - `exec`
+        - `exit`
+        - `export`
+        - `getopts`
+        - `hash`
+        - `pwd`
+        - `readonly`
+        - `return`
+        - `set`
+        - `shift`
+        - `test`
+        - `[`
+        - `times`
+        - `trap`
+        - `umask`
+        - `unset`
+    - **bash** built-in commands
+        - `alias`
+        - `bind`
+        - `builtin`
+        - `command`
+        - `declare`
+        - `echo`
+        - `enable`
+        - `help`
+        - `let`
+        - `local`
+        - `logout`
+        - `printf`
+        - `read`
+        - `shopt`
+        - `type`
+        - `typeset`
+        - `ulimit`
+        - `unalias`
+    - special built-in commands
+        - if you execute bash in POSIX mode → special built-ins vs built-ins
+            - if `lookup` → special built-ins are found before
+            - if special built-ins returns error status → non-interactive shell exists
+            - `assignmentStatement … command` → `assignmentStatement` keeps in shell environment till `command` is completed
+        - POSIX special built-ins
+            - `:`
+            - `.`
+            - `break`
+            - `continue`
+            - `eval`
+            - `exec`
+            - `exit`
+            - `export`
+            - `readonly`
+            - `return`
+            - `set`
+            - `shift`
+            - `trap`
+            - `unset`
+
+# From a script → execute programs
+- TODO:
