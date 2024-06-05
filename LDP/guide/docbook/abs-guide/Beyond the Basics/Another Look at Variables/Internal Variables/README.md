@@ -1,0 +1,8 @@
+- TODO:
+- `$?`
+  - exit status of a 
+    - command
+    - function
+    - script itself
+  - _Example:_ `bash $?.sh`
+- TODO:
