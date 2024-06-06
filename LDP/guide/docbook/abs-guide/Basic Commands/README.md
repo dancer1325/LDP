@@ -1,0 +1,18 @@
+- TODO:
+- `cat` & `tac`
+  - `cat -n TODO: -b TODO: -v TODO: -s TODO: file1 file2 ...`
+    - == ConcATenate
+    - allows
+      - file -- is listed / displayed to -> stdout
+        - _Example:_ `cat fileForCat.txt` OR `cat fileForCat.txt fileForCatTwo.txt`
+      - if you combine with `>` OR `>>`  -> concatenate files
+        - _Example:_ `cat fileForCat.txt fileForCatTwo.txt > fileConcatenate.txt`
+    - `-n `
+      - TODO:
+    - `-b `
+      - TODO:
+    - `-v `
+      - TODO:
+    - `-s `
+      - TODO:
+- TODO:
