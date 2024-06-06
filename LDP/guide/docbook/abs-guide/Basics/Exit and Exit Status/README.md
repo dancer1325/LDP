@@ -1,0 +1,26 @@
+`exit`
+- := "exit code" OR "return status" OR "exit status"
+- allows
+  - terminating a program
+    - == C
+  - returning a value / available to the parent script
+- uses
+  - every command
+    - if succeed -> returned `0`
+    - else -> != 0
+    - Example: `bash checkExistStatusOfEachCommand.sh`
+  - itself within a script 
+    - `exit nnn` --
+      - n [0,255]
+    - `exit`
+      - -> script's exit status == lastCommandPreviouslyExecutedInTheScript's exit status
+      - _Example:_ `bash exitWithoutSpecifyingNumber.sh`
+    - `exit $?`
+      - == previous one
+      - _Example:_ `bash exitWithQuestionMark.sh`
+    - NOT specified
+      - == previous one
+      - _Example:_ `bash exitWithNotSpecifiedExit.sh`
+  - in a pipe
+    - == exit status of last command of the pipe
+      - _Example:_ `bash pipeAsLastCommand.sh`
