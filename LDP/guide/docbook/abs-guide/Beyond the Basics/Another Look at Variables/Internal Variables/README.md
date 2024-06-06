@@ -6,3 +6,17 @@
     - script itself
   - _Example:_ `bash $?.sh`
 - TODO:
+- `$PIPESTATUS`
+  - := []exitStatusOfForegroundPipe
+    - FOREGROUND == if you do NOT capture immediately after the pipe -> disappear == volatile variable
+    - [i] is the exitStatusOfCommandIinThePipe
+    - [*] loop for all
+  - `set -o pipefail`
+    - := option /
+      - if some command in the pipe failed -> exitStatus of the pipe = exitStatus of last command in the pipe to fail
+    - _Example:_ `bash pipeFailOption.sh`
+      - Problems:
+        - Problem1: "line 167: syntax error near unexpected token `&'"
+          - Solution: TODO:
+  - _Example:_ `bash `
+- TODO:
