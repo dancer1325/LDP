@@ -1,0 +1,13 @@
+- TODO:
+- `tee`
+  - `command ---> command ---> |tee fileToOutput ---> command ---> ---> output of pipe`
+  - := redirection operator
+  - allows
+    - pipe's command or command's stdout 
+      - -- can be forward to a -- file &
+      - output NOT affected ALSO returned
+  - uses
+    - printing an ongoing process
+  - _Example:_ `cat listfile.txt | sort | tee fileTee.txt | uniq`
+    - Although you add `tee`, the pipe is still ongoing
+- TODO:
