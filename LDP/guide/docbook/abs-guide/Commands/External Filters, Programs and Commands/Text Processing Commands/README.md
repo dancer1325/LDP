@@ -1,0 +1,21 @@
+- TODO:
+- `tr 'whatToReplace' 'howToTranslate'` or `tr [whatToReplace] [howToTranslate]`
+  - `whatToReplace`
+    - can be
+      - 1!
+      - [rangeOfCharacters]
+  - := translation filter
+  - `<fileNamePath`
+  - `-d`
+    - allows
+      - deleting characters
+  - `--squeeze-repeats` OR `-s`
+    - allows
+      - removing ALL duplicated characters BUT first instance
+  - `-c`
+    - allows
+      - acting on REST of characters
+  - Note:
+    - characters can be ALSO digit!!
+  - TODO:
+- TODO:
