@@ -15,6 +15,7 @@ echo $FILE_TRANSLATE
 
 # -d 'whatToDelete'
 echo "hello world" | tr -d 'e'
+echo "- hello world" | tr -d 'eo'     # NO consecutives necessary. Just pass several
 echo "hello world" | tr -d '[e-r]'
 
 # characters can be ALSO digit

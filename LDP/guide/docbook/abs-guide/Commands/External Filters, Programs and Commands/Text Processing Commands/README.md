@@ -2,7 +2,7 @@
 - `tr 'whatToReplace' 'howToTranslate'` or `tr [whatToReplace] [howToTranslate]`
   - `whatToReplace`
     - can be
-      - 1!
+      - 1 OR >1
       - [rangeOfCharacters]
   - := translation filter
   - `<fileNamePath`
