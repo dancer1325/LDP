@@ -1,4 +1,10 @@
 - TODO:
+- `head filePath`
+  - allows
+    - beginning of a file (10 lines by default) -- is listed to -- stdout
+  - `-n #OfFirstLinesToTruncate`
+  - `-c #OfBytesOfFileToTruncate`
+  - _Example:_ `bash script-detector.sh` & `bash rnd.sh` & `bash head.sh`
 - `tr 'whatToReplace' 'howToTranslate'` or `tr [whatToReplace] [howToTranslate]`
   - `whatToReplace`
     - can be
