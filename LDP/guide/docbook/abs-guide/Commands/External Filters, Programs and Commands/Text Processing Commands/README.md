@@ -1,4 +1,15 @@
 - TODO:
+- `grep patternOrLiteralText [file]`
+  - == Global Regular ExPression
+  - allows
+    - searching in a file by regular expressions & picking ALL the line
+    - filtering on stdout in a pipe
+  - `-i`
+    - == case-insensitive
+  - `-w`
+    - == matches ONLY whole patternOrLiteralText -- BUT also picking ALL the line --
+  - TODO:
+  - _Example:_ `bash grep.sh`
 - `head filePath`
   - allows
     - beginning of a file (10 lines by default) -- is listed to -- stdout
