@@ -35,4 +35,9 @@
   - Note:
     - characters can be ALSO digit!!
   - TODO:
+- `tail filePath`
+  - allows
+    - ending of a file (10 lines by default) -- is listed to -- stdout
+  - `-n #OfFirstLinesToTruncate`
+  - _Example:_ `bash tail.sh` & `bash ex12.sh`
 - TODO:
