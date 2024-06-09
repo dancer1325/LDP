@@ -2,12 +2,14 @@
 - `grep patternOrLiteralText [file]`
   - == Global Regular ExPression
   - allows
-    - searching in a file by regular expressions & picking ALL the line
+    - searching in a file by regular expressions & picking ALL the line as stdout
     - filtering on stdout in a pipe
   - `-i`
     - == case-insensitive
   - `-w`
     - == matches ONLY whole patternOrLiteralText -- BUT also picking ALL the line --
+  - `-q`
+    - suppress the output
   - TODO:
   - _Example:_ `bash grep.sh`
 - `head filePath`

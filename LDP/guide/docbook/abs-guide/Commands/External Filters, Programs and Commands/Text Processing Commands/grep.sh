@@ -30,3 +30,11 @@ ONLY_WHOLE_WORD=$(grep -w Ros grepSample.txt)   # NOTHING found, because ALL wor
 echo $ONLY_WHOLE_WORD
 ONLY_WHOLE_WORD_FOUND=$(grep -w Rosi grepSample.txt)   # NOTHING found, because ALL word must be matched
 echo $ONLY_WHOLE_WORD_FOUND
+
+# -q
+Q_OPTION=$(grep -q Ros grepSample.txt)
+echo $Q_OPTION              # NO output
+grep -q Ros grepSample.txt    # matching action still working
+if [ $? -eq 0 ]; then
+  echo "SUCCESS"
+fi
